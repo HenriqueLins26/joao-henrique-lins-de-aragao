@@ -17,24 +17,20 @@ body{
 }
 
 header{
-    width: 100%;
     height: 100px;
     background-color:#1F3A93;
 }
+
+p{
+    margin-bottom: -15px;
+}
 nav{
-    float: right;
+    text-align: right;
     padding-right: 20px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-}
-li {
-    padding: 20px;
-}
-
 a {
+    padding-left: 30px;
     color: #C9D6DF;
     text-decoration: none;
 }
