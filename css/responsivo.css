@@ -194,7 +194,7 @@
 
     /* Pagina Rodapé */
     footer{
-        height: 60px;
+        height: 70px;
         padding: 10px;
     }
 
@@ -207,7 +207,7 @@
     }
 
     .icon{
-        margin: 5px 6px 0px 0px;
+        margin: 2px 2px 0px 0px;
         vertical-align: bottom;
         width: 16px;
     }
