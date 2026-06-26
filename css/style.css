@@ -133,7 +133,8 @@ nav a:hover{
 .descri{
     margin: auto;
     text-align: center;
-    width: 900px;
+    width: 90%;
+    max-width: 900px;
 }
 
 .descri > p{
@@ -204,7 +205,8 @@ nav a:hover{
 
 .sob{
     margin: auto;
-    width: 900px;
+    width: 90%;
+    max-width: 900px;
 }
 
 .sob > h2 {
@@ -223,10 +225,13 @@ nav a:hover{
 }
 
 .card-sob{
-    margin: 10px;
-    width: 400px;
+    border-right: 2px solid var(--cor5);
+    border-left: 2px solid var(--cor5);
+    border-left: 1;
+    margin: -1px;
+    width: 450px;
     height: 150px;
-    padding: 10px;
+    padding: 20px;
 
 }
 
@@ -382,7 +387,7 @@ nav a:hover{
 
 #formulario{  
     height: 600px;
-    background-image: url('../image/pawel-czerwinski-JycBD2jrOb8-unsplash.jpg');
+    background-image: url('../image/fundo-formulario.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

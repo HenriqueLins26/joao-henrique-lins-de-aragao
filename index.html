@@ -9,30 +9,35 @@
     <title>Home</title>
 </head>
 <body>
+    <!-- Cabeçalho contendo logo e menu de navegação -->
     <header>
         <div class="menu">
             <p><img src="favicon/terminal.png" alt="Logo terminal" class="logo"><span>Henrique Lins</span> </p>
         </div>
+        <!-- Menu principal responsável pela navegação entre as páginas -->
         <nav>
-            <a href="index.html" target="_self" class="ativo">Home</a>
-            <a href="sobre.html" target="_self">Sobre mim</a>
-            <a href="formacao.html" target="_self">Formação</a>
-            <a href="portifolio.html" target="_self">Portifólio</a>
-            <a href="contato.html" target="_self">Contato</a>
+            <a href="index.html" class="ativo">Home</a>
+            <a href="sobre.html">Sobre mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
             <button>Mudar tema</button>
         </nav>
     </header>
 
+    <!-- Conteúdo principal da página -->
     <main>
+        <!-- Apresentação inicial com imagem e nome -->
         <div class="perfil">
             <div class="ft-perfil">
-                <img src="image/andrei-castanha-XIFTCpHKCnI-unsplash.jpg" alt="">
+                <img src="image/foto-perfil.jpg" alt="Foto de perfil">
             </div>
             <div>
                 <h1>Olá, eu sou Henrique Lins</h1>
             </div>
         </div>
 
+        <!-- Seção com informações profissionais e áreas de interesse -->
         <section class="descri">
             <h2>Estudante de Engenharia de Software e desenvolvedor em formação</h2>
             <p>Sou estudante de Engenharia de Software e formado em Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento de sistemas e aplicações web. Atualmente estou aprimorando meus conhecimentos em programação, buscando transformar meus estudos em projetos práticos e desenvolver soluções utilizando tecnologia.</p>
@@ -46,6 +51,7 @@
         <section class="descri">
             <h2>Áreas de interesse</h2>
             
+            <!-- Cards apresentando áreas de conhecimento -->
             <div class="cards-des">
                 <div class="des">
                     <h3>Desenvolvimento Back-End</h3>
@@ -67,21 +73,22 @@
             <div class="descricao">
                 <h2>Conheça minha jornada</h2>
                 <p>Explore minha formação, projetos desenvolvidos e conhecimentos adquiridos durante minha jornada na área de tecnologia.</p>
-                <a href="sobre.html" target="_self">Sobre mim</a><a href="contato.html" target="_self" class="btn-home">Entrar em contato</a>
+                <a href="sobre.html">Sobre mim</a><a href="contato.html" class="btn-home">Entrar em contato</a>
             </div>
         </section>
     </main>
 
+    <!-- Rodapé com links das redes profissionais -->
     <footer>
         <p>Henrique Lins │ Desenvolvedor em formação │ 
             <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener">
-                <img src="icones/github (1).png" alt="Logo GitHub" class="icon">GitHub
+                <img src="icones/github-claro.png" alt="Logo GitHub" class="icon">GitHub
             </a> │ 
             <a href="https://www.linkedin.com/in/henrique-lins-04561a300/" target="_blank" rel="noopener">
-                <img src="icones/linkedin (1).png" alt="Logo Linkedin" class="icon">Linkedin
+                <img src="icones/linkedin-claro.png" alt="Logo LinkedIn" class="icon">LinkedIn
             </a> │ 
-            <a href="#" target="_blank">
-                <img src="icones/envelope (1).png" alt="Logo Email" class="icon">Email
+            <a href="mailto:seuemail@email.com" target="_blank">
+                <img src="icones/envelope-claro.png" alt="Logo Email" class="icon">Email
             </a> │ © 2026 Henrique Lins
         </p>
     </footer>
