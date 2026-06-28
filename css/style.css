@@ -22,8 +22,6 @@
     --font-prg: 'Inter';
 }
 
-
-
 body{
     background-color: #eaeef1;
 
@@ -112,6 +110,27 @@ nav a:hover{
     border-radius: 10px 10px 0px 0px;
     border-bottom: 2px solid var(--cor6);
  }
+
+/* Estilo Base do Botão de Tema */
+#tema {
+    background-color: var(--cor4); 
+    color: var(--cor0);          
+    border: 2px solid transparent;
+    padding: 8px 15px;
+    font-family: var(--font-tit);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+}
+
+#tema:hover {
+    background-color: transparent;
+    border-color: var(--cor4);
+}
 
 /* Fim do menu*/
 
@@ -232,7 +251,6 @@ nav a:hover{
 .card-sob{
     border-right: 2px solid var(--cor5);
     border-left: 2px solid var(--cor5);
-    border-left: 1;
     margin: -1px;
     width: 450px;
     height: 150px;
@@ -476,6 +494,10 @@ nav a:hover{
     vertical-align: middle;
 }
 
+.img-escuro {
+    display: none;
+}
+
 .icon-cont h2 {
     text-align: center;
     font-size: 30px;
@@ -528,43 +550,70 @@ footer a:hover{
 }
 /* Fim do rodapé */
 
-
-/* ==========================================================================
-   CONFIGURAÇÃO DO TEMA ESCURO (ADICIONE NO FINAL DO SEU CSS)
-   ========================================================================== */
+/* Configuração do tema escuro */
 
 /* Quando o body tiver a classe .dark-theme, estas cores serão aplicadas */
 body.dark-theme {
-    background-color: #121214; /* Fundo escuro para a página */
-    color: #e1e1e6;            /* Texto claro geral */
+    background-color: #121214; 
+    color: #e1e1e6;
 }
 
 /* Ajuste dos títulos no modo escuro */
 body.dark-theme h1 {
-    color: #ffffff;
+    color: var(--cor0);
 }
 
 body.dark-theme h2 {
-    color: #60A5FA; /* Usa a sua var(--cor4) para dar destaque aos subtítulos */
+    color: var(--cor4);
 }
 
 /* Ajuste dos links e textos específicos na Home */
 body.dark-theme .descricao > a {
-    color: #60A5FA; /* Links que eram pretos viram azuis claros */
+    color: var(--cor4); 
 }
 
 body.dark-theme .icon-cont a {
-    color: #ffffff; /* Links da página de contato */
+    color: var(--cor0);
 }
 
-/* Ajuste de seções ou cards que precisam mudar de cor no modo escuro */
+/* Ajuste de cards que precisam mudar de cor no modo escuro */
 body.dark-theme .card-f {
     background-color: #1f2937;
-    border-color: var(--cor3);
-    color: #ffffff;
+    border-color: var(--cor0);
+    color: var(--cor0);
 }
 
 body.dark-theme .card-sob {
     border-color: var(--cor4);
-    color: #ffffff;
+    color: var(--cor0);
+}
+
+body.dark-theme .descricao .btn-home{
+    color: var(--cor0);
+}
+
+body.dark-theme .descricao > a{
+    color: var(--cor0);
+}
+
+body.dark-theme #formulario h2 {
+    color: var(--cor0);
+}
+
+body.dark-theme #formulario{
+    border-bottom: 1px solid var(--cor0);
+    border-top: 1px solid var(--cor0);
+}
+
+body.dark-theme .img-claro {
+    display: none;
+}
+
+body.dark-theme .img-escuro {
+    display: inline-block;
+}
+
+body.dark-theme #tema {
+    box-shadow: 0 0 8px var(--cor4); 
+    
 }

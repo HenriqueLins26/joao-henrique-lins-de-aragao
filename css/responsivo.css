@@ -16,6 +16,14 @@
 
 @media screen and (max-width: 768px){
     /* Definçaõ da pagina*/
+
+    #tema {
+        display: block;
+        width: 30%;
+        margin: 15px auto;
+        text-align: center;
+        padding: 12px 0px; 
+    }
     h1{
         padding-top: 10px;
         font-size: 33px;
@@ -36,7 +44,7 @@
 
     /* Menu */
     header{
-        padding: 0px 0px 20px 0px;
+        padding: 0px;
         height: auto;
 
     }
@@ -99,7 +107,8 @@
         height: 180px;
     }
     .descri{
-        width: 370px;
+        margin: 0;
+        width: 95%;
     }
 
     .descri > p{
@@ -119,7 +128,7 @@
 
     /* Pagina Sobre*/
     .sob{
-        width: 370px;
+        width: 100%;
     }
 
     .sob > p{
@@ -132,7 +141,7 @@
 
     .card-sob{
         box-shadow: -4px 4px 10px var(--cor1);
-        border: 2px solid var(--cor5);
+        border: 5px solid var(--cor5);
         border-radius: 10px;
         width: 250px;
         margin: 10px auto;
@@ -271,7 +280,7 @@
 
     .icon{
         margin: 2px 2px 0px 0px;
-        vertical-align: bottom;
+        vertical-align: middle;
         width: 16px;
     }
     /* Pagina Rodapé */
