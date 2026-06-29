@@ -42,6 +42,7 @@ O projeto foi construído utilizando tecnologias web fundamentais, focando em se
 ├── portfolio.html        # Página de Projetos
 ├── contato.html          # Página de Formulário de Contato
 └── README.md             # Documentação do projeto
+```
 
 ---
 
