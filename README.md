@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal e profissional! Este projeto foi desenvolvido como parte da minha jornada na faculdade de Engenharia de Software, servindo como uma vitrine para apresentar minha formação, minhas áreas de interesse e projetos de desenvolvimento.
 
-🚀 **Acesse o site rodando ao vivo aqui:** [Henrique Lins - Portfólio]<a href="https://henriquelins26.github.io/portfolio/" target="_blank" rel="noopener">Henrique Lins - Portfólio</a>
+🚀 **Acesse o site rodando ao vivo aqui:** [Henrique Lins - Portfólio]<a href="https://henriquelins26.github.io/joao-henrique-lins-de-aragao/" target="_blank" rel="noopener">Henrique Lins - Portfólio</a>
 
 ---
 
